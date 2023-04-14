@@ -1,0 +1,134 @@
+:root {
+  --primaryColor: #3251D7;
+  --secondaryColor: #2644ca;
+  --textColor: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--primaryColor);
+}
+
+.info__wrapper {
+  bottom: 50px;
+  margin: 30px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.4rem;
+}
+.test__btn {
+  width: 300px;
+  margin: 10px 30px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 18px 0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cookie__wrapper {
+  position: fixed;
+  bottom: 50px;
+  left: -600px;
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px 25px;
+  transition: left 0.3s ease; 
+}
+
+.show {
+  left: 30px;
+}
+
+.cookie__header {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.cookie__icon {
+  color: var(--primaryColor);
+  rotate: -80deg;
+  position: absolute;
+  bottom: -100px;
+  right: -90px;
+  opacity: 0.12;
+  z-index: -999;
+}
+
+.cookie__title {
+  color: var(--primaryColor);
+  font-weight: 600;
+}
+
+.cookie__data {
+  margin-top: 10px;
+  color: var(--textColor);
+  font-size: 16px;
+}
+
+.cookie__link {
+  color: var(--primaryColor);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cookie__link:hover {
+  color: var(--secondaryColor);
+  text-decoration: underline;
+}
+
+.cookie__buttons {
+  margin-top: 15px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cookie__btn {
+  width: calc(100% / 2 - 10px);
+  padding: 8px 0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cookie__btn:hover {
+  background-color: var(--secondaryColor);
+}
+
+.cookie__btn-accept {
+  background-color: #15bb79;
+}
+
+.cookie__btn-accept:hover {
+  background-color: #0bac6b;
+}
+
+.cookie__btn-decline {
+  background-color: #F83F3F;
+}
+
+.cookie__btn-decline:hover {
+  background-color: #dd2a2a;
+}
+
+.cookie__btn-delete {
+  background-color: #F83F3F;
+}
+
