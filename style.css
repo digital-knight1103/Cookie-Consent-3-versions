@@ -16,6 +16,26 @@ body {
   background-color: var(--primaryColor);
 }
 
+.info__wrapper {
+  bottom: 50px;
+  margin: 30px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.4rem;
+}
+.test__btn {
+  width: 300px;
+  margin: 10px 30px;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 18px 0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
 .cookie__wrapper {
   position: fixed;
   bottom: 50px;
@@ -106,5 +126,9 @@ body {
 
 .cookie__btn-decline:hover {
   background-color: #dd2a2a;
+}
+
+.cookie__btn-delete {
+  background-color: #F83F3F;
 }
 
