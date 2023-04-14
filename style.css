@@ -26,7 +26,7 @@ body {
 .test__btn {
   width: 300px;
   margin: 10px 30px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   padding: 18px 0;
   color: #fff;
@@ -40,7 +40,7 @@ body {
   position: fixed;
   bottom: 50px;
   left: -400px;
-  max-width: 400px;
+  max-width: 500px;
   width: 100%;
   background: #fff;
   border-radius: 10px;
@@ -92,7 +92,7 @@ body {
 
 .cookie__buttons {
   margin-top: 15px;
-  width: 100%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: space-between;
