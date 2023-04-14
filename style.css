@@ -1,6 +1,6 @@
 :root {
-  --primaryColor: #53EEBE;
-  --secondaryColor: #35cf9e;
+  --primaryColor: #3251D7;
+  --secondaryColor: #2644ca;
   --textColor: #333;
 }
 
@@ -19,7 +19,7 @@ body {
 .cookie__wrapper {
   position: fixed;
   bottom: 50px;
-  right: 20px;
+  left: 30px;
   max-width: 400px;
   width: 100%;
   background: #fff;
@@ -27,7 +27,7 @@ body {
   padding: 16px 25px;
 }
 
-.cookie__wrapper header {
+.cookie__header {
   display: flex;
   align-items: center;
   column-gap: 15px;
@@ -35,7 +35,12 @@ body {
 
 .cookie__icon {
   color: var(--primaryColor);
-  font-size: 32px;
+  rotate: -80deg;
+  position: absolute;
+  bottom: -100px;
+  right: -90px;
+  opacity: 0.12;
+  z-index: -999;
 }
 
 .cookie__title {
@@ -44,7 +49,7 @@ body {
 }
 
 .cookie__data {
-  margin-top: 
+  margin-top: 10px;
   color: var(--textColor);
   font-size: 16px;
 }
@@ -52,6 +57,7 @@ body {
 .cookie__link {
   color: var(--primaryColor);
   text-decoration: none;
+  font-weight: 500;
 }
 
 .cookie__link:hover {
@@ -80,4 +86,20 @@ body {
 
 .cookie__btn:hover {
   background-color: var(--secondaryColor);
+}
+
+.cookie__btn-accept {
+  background-color: #15bb79;
+}
+
+.cookie__btn-accept:hover {
+  background-color: #0bac6b;
+}
+
+.cookie__btn-decline {
+  background-color: #F83F3F;
+}
+
+.cookie__btn-decline:hover {
+  background-color: #dd2a2a;
 }
