@@ -1,6 +1,83 @@
+:root {
+  --primaryColor: #53EEBE;
+  --secondaryColor: #35cf9e;
+  --textColor: #333;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--primaryColor);
+}
+
+.cookie__wrapper {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  max-width: 400px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px 25px;
+}
+
+.cookie__wrapper header {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.cookie__icon {
+  color: var(--primaryColor);
+  font-size: 32px;
+}
+
+.cookie__title {
+  color: var(--primaryColor);
+  font-weight: 600;
+}
+
+.cookie__data {
+  margin-top: 
+  color: var(--textColor);
+  font-size: 16px;
+}
+
+.cookie__link {
+  color: var(--primaryColor);
+  text-decoration: none;
+}
+
+.cookie__link:hover {
+  color: var(--secondaryColor);
+  text-decoration: underline;
+}
+
+.cookie__buttons {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cookie__btn {
+  width: calc(100% / 2 - 10px);
+  padding: 8px 0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--primaryColor);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cookie__btn:hover {
+  background-color: var(--secondaryColor);
 }
