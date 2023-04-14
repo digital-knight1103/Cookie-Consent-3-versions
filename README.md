@@ -2,6 +2,7 @@
 
 ## A little helper to quickly add a cookie modal to your site. 
 
+![alt text](http://url/to/img.png)
 <img src="./assets/cookie.png" alt="cookie" title="modla image">
 
 It will be possible to use 3 versions:
