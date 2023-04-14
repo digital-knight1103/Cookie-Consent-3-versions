@@ -2,7 +2,7 @@
 
 ## A little helper to quickly add a cookie modal to your site. 
 
-[![N|Solid](./assets/cookie.png)](https://nodesource.com/products/nsolid)
+<img src="./assets/cookie.png" alt="cookie" title="modla image">
 
 It will be possible to use 3 versions:
 
